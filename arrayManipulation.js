@@ -33,9 +33,9 @@ console.log(resultStrings);
 
 //TASK 3
 function createUserProfiles(names, modifiedNames) {
-  return names.map((name, i) => {
+  return names.map((names, i) => {
     return {
-      originalName: name,
+      originalName: names,
       modifiedName: modifiedNames[i],
       id: i + 1,
     };
